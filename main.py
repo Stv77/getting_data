@@ -36,7 +36,7 @@ text_container = "".split()
 rating_container = "".split()
 
 # filtering words to filter out the text container
-filtering = ['Categories', 'About', 'Support', 'Community', 'More From Fiverr']
+filtering = ['Categories', 'About', 'Support', 'Community', 'More From ___']
 
 time.sleep(5)
 
