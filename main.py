@@ -17,7 +17,7 @@ ua = UserAgent()
 userAgent = ua.random
 print(userAgent)
 chrome_options.add_argument('--user-agent='+userAgent)
-driver = webdriver.Chrome(chrome_options=chrome_options, executable_path=r'D:\Python\FiverrCrawler\env1\Lib\site-packages\selenium\webdriver\chrome\chromedriver.exe')
+driver = webdriver.Chrome(chrome_options=chrome_options, executable_path=r'your_chromedriver.exe_path')
 driver.get('https://www.____.com/search/gigs?query=android%20developer&source=top-bar&search_in=everywhere&search-autocomplete-original-term=android%20developer')
 time.sleep(5)
 driver.maximize_window()
