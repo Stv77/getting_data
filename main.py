@@ -82,7 +82,7 @@ while True:
         filter_data = [x for x in text_container if
               all(y not in x for y in filtering)]
         
-        # save the data into csv from the lists using panda (uncomment to not save to csv)      
+        # save the data into csv from the lists using panda (comment to not save to csv)      
         dict = {'names': name_container, 'titles': filter_data, 'ratings': rating_container}
         df = pd.DataFrame(dict)
         df.to_csv('android_developer.csv')
